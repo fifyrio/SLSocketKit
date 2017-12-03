@@ -1,0 +1,32 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "37ac12dc-bdc2-42cf-b44b-7e492b478d21++9208",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "37ac12dc-bdc2-42cf-b44b-7e492b478d21++9208" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E0690FB86B48A3B1FF8C18A23B871D2421273286" : 0,
+    "37ac12dc-bdc2-42cf-b44b-7e492b478d21++9208" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "22882865-9BF5-444D-857F-4E4AB97F752F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E0690FB86B48A3B1FF8C18A23B871D2421273286" : "aModel\/",
+    "37ac12dc-bdc2-42cf-b44b-7e492b478d21++9208" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "tableView",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "tableView.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/101.200.238.15\/share",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "37ac12dc-bdc2-42cf-b44b-7e492b478d21++9208"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/fifyrio\/aModel.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E0690FB86B48A3B1FF8C18A23B871D2421273286"
+    }
+  ]
+}
