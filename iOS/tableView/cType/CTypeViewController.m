@@ -67,6 +67,10 @@
     });
 }
 
+
+/**
+ 连接服务器，服务器用终端'netcat  nc -lk 12345'模拟，需要安装netcat
+ */
 - (void)connectToServer{
     struct sockaddr_in addr;
     addr.sin_family = AF_INET;//AF_INET ipv4协议
