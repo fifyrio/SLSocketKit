@@ -1,0 +1,24 @@
+//
+//  PrefixHeader.pch
+//  SLSocketKitDemo
+//
+//  Created by wuw on 2018/1/10.
+//  Copyright © 2018年 Will. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "Common.h"
+#import "UIColor+HexColor.h"
+
+#define weakify(...) \
+rac_keywordify \
+metamacro_foreach_cxt(rac_weakify_,, __weak, __VA_ARGS__)
+
+#define strongify(...) \
+rac_keywordify \
+metamacro_foreach(rac_strongify_,, __VA_ARGS__) \
+
+
+#endif /* PrefixHeader_pch */

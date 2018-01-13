@@ -69,7 +69,7 @@
 
 
 /**
- 连接服务器，服务器用终端'netcat  nc -lk 12345'模拟，需要安装netcat
+ 连接服务器，服务器用终端'netcat -l -p 12345'模拟，需要安装netcat
  */
 - (void)connectToServer{
     struct sockaddr_in addr;
