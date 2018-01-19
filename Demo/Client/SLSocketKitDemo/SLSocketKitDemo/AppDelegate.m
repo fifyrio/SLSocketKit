@@ -7,7 +7,9 @@
 //
 
 #import "AppDelegate.h"
-#import "ViewController.h"
+#import "SLLoginViewController.h"
+#import <MAMapKit/MAMapKit.h>
+#import <AMapFoundationKit/AMapFoundationKit.h>
 
 @interface AppDelegate ()
 
@@ -22,10 +24,12 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     
-    ViewController* mainVC = [[ViewController alloc] init];
-    UINavigationController *navVC = [[UINavigationController alloc] initWithRootViewController:mainVC];
+    //高德3d地图
+    [[AMapServices sharedServices] setEnableHTTPS:YES];
+    [AMapServices sharedServices].apiKey = GEO_KEY;
     
-    self.window.rootViewController = navVC;
+    SLLoginViewController* loginVC = [[SLLoginViewController alloc] init];
+    self.window.rootViewController = loginVC;
     return YES;
 }
 

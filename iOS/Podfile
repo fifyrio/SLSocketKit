@@ -1,6 +1,0 @@
-platform :ios, '7.0' #手机的系统
-
-target 'tableView' do
-    pod 'CocoaAsyncSocket'
-    pod 'ReactiveCocoa', '~> 2.5’    
-end

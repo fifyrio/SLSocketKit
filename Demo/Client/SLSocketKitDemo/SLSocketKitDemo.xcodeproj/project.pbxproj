@@ -11,6 +11,23 @@
 		CC605E6F2006FE5500CE5703 /* SLLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CC605E6E2006FE5500CE5703 /* SLLocationManager.m */; };
 		CC605E732007061300CE5703 /* CFSocketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CC605E722007061300CE5703 /* CFSocketManager.m */; };
 		CC605E76200718E200CE5703 /* NSTimer+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = CC605E74200718E200CE5703 /* NSTimer+Addition.m */; };
+		CC79C5D4200DA42800F80666 /* SLLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC79C5D2200DA42800F80666 /* SLLoginViewController.m */; };
+		CC79C5D5200DA42800F80666 /* SLLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC79C5D3200DA42800F80666 /* SLLoginViewController.xib */; };
+		CC79C605200DA8F400F80666 /* UICollectionView+reactiveCocoa.m in Sources */ = {isa = PBXBuildFile; fileRef = CC79C5F8200DA8F400F80666 /* UICollectionView+reactiveCocoa.m */; };
+		CC79C606200DA8F400F80666 /* XYScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC79C5FA200DA8F400F80666 /* XYScrollView.m */; };
+		CC79C607200DA8F400F80666 /* XYView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC79C5FD200DA8F400F80666 /* XYView.m */; };
+		CC79C608200DA8F400F80666 /* XYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC79C5FF200DA8F400F80666 /* XYViewController.m */; };
+		CC79C609200DA8F400F80666 /* XYViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CC79C602200DA8F400F80666 /* XYViewModel.m */; };
+		CC79C60C200DA9FA00F80666 /* SLShareLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC79C60B200DA9FA00F80666 /* SLShareLocationViewController.m */; };
+		CC79C60F200DAA1900F80666 /* SLShareLocationView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC79C60E200DAA1900F80666 /* SLShareLocationView.m */; };
+		CC79C612200DAA4B00F80666 /* SLShareLocationViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CC79C611200DAA4B00F80666 /* SLShareLocationViewModel.m */; };
+		CC79C616200DAE6500F80666 /* SLShareLocationUserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC79C614200DAE6500F80666 /* SLShareLocationUserCell.m */; };
+		CC79C617200DAE6500F80666 /* SLShareLocationUserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC79C615200DAE6500F80666 /* SLShareLocationUserCell.xib */; };
+		CC79C61A200DD5E400F80666 /* SLUserAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC79C619200DD5E400F80666 /* SLUserAnnotationView.m */; };
+		CC79C61D200DDB3400F80666 /* SLUserAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = CC79C61C200DDB3400F80666 /* SLUserAnnotation.m */; };
+		CC79C620200EFF7B00F80666 /* SLLocationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CC79C61F200EFF7A00F80666 /* SLLocationModel.m */; };
+		CC79C623200F233200F80666 /* NSObject+SLSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = CC79C622200F233200F80666 /* NSObject+SLSocket.m */; };
+		CC79C626200F48F900F80666 /* SLSocketRequestSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = CC79C625200F48F900F80666 /* SLSocketRequestSerializer.m */; };
 		CC817EC82005E1C6003C5637 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC817EC72005E1C6003C5637 /* AppDelegate.m */; };
 		CC817ED02005E1C6003C5637 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC817ECF2005E1C6003C5637 /* Assets.xcassets */; };
 		CC817ED32005E1C6003C5637 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC817ED12005E1C6003C5637 /* LaunchScreen.storyboard */; };
@@ -18,6 +35,17 @@
 		CC817EE02005E3B2003C5637 /* UIColor+HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = CC817EDE2005E3B2003C5637 /* UIColor+HexColor.m */; };
 		CC817EE52005E4F9003C5637 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC817EE32005E4F9003C5637 /* ViewController.m */; };
 		CC817EE62005E4F9003C5637 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC817EE42005E4F9003C5637 /* ViewController.xib */; };
+		CCA21F34201044ED00DC14B3 /* SLShareLocationEmptyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA21F32201044ED00DC14B3 /* SLShareLocationEmptyCell.m */; };
+		CCA21F35201044ED00DC14B3 /* SLShareLocationEmptyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCA21F33201044ED00DC14B3 /* SLShareLocationEmptyCell.xib */; };
+		CCA21F3820106AA400DC14B3 /* SLAsyncSocketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA21F3720106AA400DC14B3 /* SLAsyncSocketManager.m */; };
+		CCA21F4020106F8C00DC14B3 /* SLSocketConnectSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA21F3F20106F8C00DC14B3 /* SLSocketConnectSerializer.m */; };
+		CCA21F4420108FCD00DC14B3 /* SLSocketError.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA21F4320108FCD00DC14B3 /* SLSocketError.m */; };
+		CCA21F4E2010A40600DC14B3 /* XYProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CCA21F472010A40600DC14B3 /* XYProgressHUD.bundle */; };
+		CCA21F4F2010A40600DC14B3 /* UIView+XYHUDOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA21F492010A40600DC14B3 /* UIView+XYHUDOperation.m */; };
+		CCA21F502010A40600DC14B3 /* XYIndefiniteAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA21F4B2010A40600DC14B3 /* XYIndefiniteAnimatedImageView.m */; };
+		CCA21F512010A40600DC14B3 /* XYProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA21F4D2010A40600DC14B3 /* XYProgressHUD.m */; };
+		CCA21F542010A45700DC14B3 /* XYCoreHUDCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA21F532010A45700DC14B3 /* XYCoreHUDCenter.m */; };
+		CCA21F572010A5E600DC14B3 /* NSDictionary+SLSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA21F562010A5E600DC14B3 /* NSDictionary+SLSocket.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +57,42 @@
 		CC605E722007061300CE5703 /* CFSocketManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFSocketManager.m; sourceTree = "<group>"; };
 		CC605E74200718E200CE5703 /* NSTimer+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Addition.m"; sourceTree = "<group>"; };
 		CC605E75200718E200CE5703 /* NSTimer+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Addition.h"; sourceTree = "<group>"; };
+		CC79C5D1200DA42800F80666 /* SLLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLLoginViewController.h; sourceTree = "<group>"; };
+		CC79C5D2200DA42800F80666 /* SLLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLLoginViewController.m; sourceTree = "<group>"; };
+		CC79C5D3200DA42800F80666 /* SLLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLLoginViewController.xib; sourceTree = "<group>"; };
+		CC79C5F7200DA8F400F80666 /* UICollectionView+reactiveCocoa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+reactiveCocoa.h"; sourceTree = "<group>"; };
+		CC79C5F8200DA8F400F80666 /* UICollectionView+reactiveCocoa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+reactiveCocoa.m"; sourceTree = "<group>"; };
+		CC79C5F9200DA8F400F80666 /* XYScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYScrollView.h; sourceTree = "<group>"; };
+		CC79C5FA200DA8F400F80666 /* XYScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYScrollView.m; sourceTree = "<group>"; };
+		CC79C5FB200DA8F400F80666 /* XYScrollViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYScrollViewProtocol.h; sourceTree = "<group>"; };
+		CC79C5FC200DA8F400F80666 /* XYView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYView.h; sourceTree = "<group>"; };
+		CC79C5FD200DA8F400F80666 /* XYView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYView.m; sourceTree = "<group>"; };
+		CC79C5FE200DA8F400F80666 /* XYViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYViewController.h; sourceTree = "<group>"; };
+		CC79C5FF200DA8F400F80666 /* XYViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYViewController.m; sourceTree = "<group>"; };
+		CC79C600200DA8F400F80666 /* XYViewControllerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYViewControllerProtocol.h; sourceTree = "<group>"; };
+		CC79C601200DA8F400F80666 /* XYViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYViewModel.h; sourceTree = "<group>"; };
+		CC79C602200DA8F400F80666 /* XYViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYViewModel.m; sourceTree = "<group>"; };
+		CC79C603200DA8F400F80666 /* XYViewModelProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYViewModelProtocol.h; sourceTree = "<group>"; };
+		CC79C604200DA8F400F80666 /* XYViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYViewProtocol.h; sourceTree = "<group>"; };
+		CC79C60A200DA9FA00F80666 /* SLShareLocationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLShareLocationViewController.h; sourceTree = "<group>"; };
+		CC79C60B200DA9FA00F80666 /* SLShareLocationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLShareLocationViewController.m; sourceTree = "<group>"; };
+		CC79C60D200DAA1900F80666 /* SLShareLocationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLShareLocationView.h; sourceTree = "<group>"; };
+		CC79C60E200DAA1900F80666 /* SLShareLocationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLShareLocationView.m; sourceTree = "<group>"; };
+		CC79C610200DAA4B00F80666 /* SLShareLocationViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLShareLocationViewModel.h; sourceTree = "<group>"; };
+		CC79C611200DAA4B00F80666 /* SLShareLocationViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLShareLocationViewModel.m; sourceTree = "<group>"; };
+		CC79C613200DAE6500F80666 /* SLShareLocationUserCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLShareLocationUserCell.h; sourceTree = "<group>"; };
+		CC79C614200DAE6500F80666 /* SLShareLocationUserCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLShareLocationUserCell.m; sourceTree = "<group>"; };
+		CC79C615200DAE6500F80666 /* SLShareLocationUserCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SLShareLocationUserCell.xib; sourceTree = "<group>"; };
+		CC79C618200DD5E400F80666 /* SLUserAnnotationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLUserAnnotationView.h; sourceTree = "<group>"; };
+		CC79C619200DD5E400F80666 /* SLUserAnnotationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLUserAnnotationView.m; sourceTree = "<group>"; };
+		CC79C61B200DDB3400F80666 /* SLUserAnnotation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLUserAnnotation.h; sourceTree = "<group>"; };
+		CC79C61C200DDB3400F80666 /* SLUserAnnotation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLUserAnnotation.m; sourceTree = "<group>"; };
+		CC79C61E200EFF7A00F80666 /* SLLocationModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLLocationModel.h; sourceTree = "<group>"; };
+		CC79C61F200EFF7A00F80666 /* SLLocationModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLLocationModel.m; sourceTree = "<group>"; };
+		CC79C621200F233200F80666 /* NSObject+SLSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+SLSocket.h"; sourceTree = "<group>"; };
+		CC79C622200F233200F80666 /* NSObject+SLSocket.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SLSocket.m"; sourceTree = "<group>"; };
+		CC79C624200F48F900F80666 /* SLSocketRequestSerializer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLSocketRequestSerializer.h; sourceTree = "<group>"; };
+		CC79C625200F48F900F80666 /* SLSocketRequestSerializer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLSocketRequestSerializer.m; sourceTree = "<group>"; };
 		CC817EC32005E1C6003C5637 /* SLSocketKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SLSocketKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC817EC62005E1C6003C5637 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CC817EC72005E1C6003C5637 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -43,6 +107,26 @@
 		CC817EE22005E4F9003C5637 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		CC817EE32005E4F9003C5637 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CC817EE42005E4F9003C5637 /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		CCA21F31201044ED00DC14B3 /* SLShareLocationEmptyCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLShareLocationEmptyCell.h; sourceTree = "<group>"; };
+		CCA21F32201044ED00DC14B3 /* SLShareLocationEmptyCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLShareLocationEmptyCell.m; sourceTree = "<group>"; };
+		CCA21F33201044ED00DC14B3 /* SLShareLocationEmptyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SLShareLocationEmptyCell.xib; sourceTree = "<group>"; };
+		CCA21F3620106AA400DC14B3 /* SLAsyncSocketManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLAsyncSocketManager.h; sourceTree = "<group>"; };
+		CCA21F3720106AA400DC14B3 /* SLAsyncSocketManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLAsyncSocketManager.m; sourceTree = "<group>"; };
+		CCA21F3E20106F8B00DC14B3 /* SLSocketConnectSerializer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLSocketConnectSerializer.h; sourceTree = "<group>"; };
+		CCA21F3F20106F8C00DC14B3 /* SLSocketConnectSerializer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLSocketConnectSerializer.m; sourceTree = "<group>"; };
+		CCA21F4220108FCD00DC14B3 /* SLSocketError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLSocketError.h; sourceTree = "<group>"; };
+		CCA21F4320108FCD00DC14B3 /* SLSocketError.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLSocketError.m; sourceTree = "<group>"; };
+		CCA21F472010A40600DC14B3 /* XYProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = XYProgressHUD.bundle; sourceTree = "<group>"; };
+		CCA21F482010A40600DC14B3 /* UIView+XYHUDOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XYHUDOperation.h"; sourceTree = "<group>"; };
+		CCA21F492010A40600DC14B3 /* UIView+XYHUDOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XYHUDOperation.m"; sourceTree = "<group>"; };
+		CCA21F4A2010A40600DC14B3 /* XYIndefiniteAnimatedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYIndefiniteAnimatedImageView.h; sourceTree = "<group>"; };
+		CCA21F4B2010A40600DC14B3 /* XYIndefiniteAnimatedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYIndefiniteAnimatedImageView.m; sourceTree = "<group>"; };
+		CCA21F4C2010A40600DC14B3 /* XYProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYProgressHUD.h; sourceTree = "<group>"; };
+		CCA21F4D2010A40600DC14B3 /* XYProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYProgressHUD.m; sourceTree = "<group>"; };
+		CCA21F522010A45700DC14B3 /* XYCoreHUDCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYCoreHUDCenter.h; sourceTree = "<group>"; };
+		CCA21F532010A45700DC14B3 /* XYCoreHUDCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYCoreHUDCenter.m; sourceTree = "<group>"; };
+		CCA21F552010A5E600DC14B3 /* NSDictionary+SLSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+SLSocket.h"; sourceTree = "<group>"; };
+		CCA21F562010A5E600DC14B3 /* NSDictionary+SLSocket.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+SLSocket.m"; sourceTree = "<group>"; };
 		F60D6E5772DA1F3C75FD2881 /* Pods-SLSocketKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SLSocketKitDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SLSocketKitDemo/Pods-SLSocketKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -87,11 +171,104 @@
 		CC605E70200705E200CE5703 /* SLSocketKit */ = {
 			isa = PBXGroup;
 			children = (
+				CCA21F4120108F9800DC14B3 /* Error */,
+				CCA21F3D20106F2D00DC14B3 /* Category */,
+				CCA21F3920106E1C00DC14B3 /* Serialization */,
 				CC605E712007061300CE5703 /* CFSocketManager.h */,
 				CC605E722007061300CE5703 /* CFSocketManager.m */,
+				CCA21F3620106AA400DC14B3 /* SLAsyncSocketManager.h */,
+				CCA21F3720106AA400DC14B3 /* SLAsyncSocketManager.m */,
 			);
 			name = SLSocketKit;
 			path = ../../../../SLSocketKit;
+			sourceTree = "<group>";
+		};
+		CC79C5D0200DA42800F80666 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				CC79C5D1200DA42800F80666 /* SLLoginViewController.h */,
+				CC79C5D2200DA42800F80666 /* SLLoginViewController.m */,
+				CC79C5D3200DA42800F80666 /* SLLoginViewController.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		CC79C5D6200DA43200F80666 /* ShareLocation */ = {
+			isa = PBXGroup;
+			children = (
+				CC79C5DD200DA4ED00F80666 /* Controller */,
+				CC79C5DA200DA4EC00F80666 /* Model */,
+				CC79C5DC200DA4EC00F80666 /* View */,
+				CC79C5DB200DA4EC00F80666 /* ViewModel */,
+			);
+			path = ShareLocation;
+			sourceTree = "<group>";
+		};
+		CC79C5DA200DA4EC00F80666 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CC79C61E200EFF7A00F80666 /* SLLocationModel.h */,
+				CC79C61F200EFF7A00F80666 /* SLLocationModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CC79C5DB200DA4EC00F80666 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CC79C610200DAA4B00F80666 /* SLShareLocationViewModel.h */,
+				CC79C611200DAA4B00F80666 /* SLShareLocationViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CC79C5DC200DA4EC00F80666 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CC79C60D200DAA1900F80666 /* SLShareLocationView.h */,
+				CC79C60E200DAA1900F80666 /* SLShareLocationView.m */,
+				CC79C613200DAE6500F80666 /* SLShareLocationUserCell.h */,
+				CC79C614200DAE6500F80666 /* SLShareLocationUserCell.m */,
+				CC79C615200DAE6500F80666 /* SLShareLocationUserCell.xib */,
+				CCA21F31201044ED00DC14B3 /* SLShareLocationEmptyCell.h */,
+				CCA21F32201044ED00DC14B3 /* SLShareLocationEmptyCell.m */,
+				CCA21F33201044ED00DC14B3 /* SLShareLocationEmptyCell.xib */,
+				CC79C61B200DDB3400F80666 /* SLUserAnnotation.h */,
+				CC79C61C200DDB3400F80666 /* SLUserAnnotation.m */,
+				CC79C618200DD5E400F80666 /* SLUserAnnotationView.h */,
+				CC79C619200DD5E400F80666 /* SLUserAnnotationView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CC79C5DD200DA4ED00F80666 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CC79C60A200DA9FA00F80666 /* SLShareLocationViewController.h */,
+				CC79C60B200DA9FA00F80666 /* SLShareLocationViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CC79C5F6200DA8F400F80666 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				CC79C5FE200DA8F400F80666 /* XYViewController.h */,
+				CC79C5FF200DA8F400F80666 /* XYViewController.m */,
+				CC79C600200DA8F400F80666 /* XYViewControllerProtocol.h */,
+				CC79C5FC200DA8F400F80666 /* XYView.h */,
+				CC79C5FD200DA8F400F80666 /* XYView.m */,
+				CC79C604200DA8F400F80666 /* XYViewProtocol.h */,
+				CC79C601200DA8F400F80666 /* XYViewModel.h */,
+				CC79C602200DA8F400F80666 /* XYViewModel.m */,
+				CC79C603200DA8F400F80666 /* XYViewModelProtocol.h */,
+				CC79C5F9200DA8F400F80666 /* XYScrollView.h */,
+				CC79C5FA200DA8F400F80666 /* XYScrollView.m */,
+				CC79C5FB200DA8F400F80666 /* XYScrollViewProtocol.h */,
+				CC79C5F7200DA8F400F80666 /* UICollectionView+reactiveCocoa.h */,
+				CC79C5F8200DA8F400F80666 /* UICollectionView+reactiveCocoa.m */,
+			);
+			path = UIKit;
 			sourceTree = "<group>";
 		};
 		CC817EBA2005E1C6003C5637 = {
@@ -115,6 +292,9 @@
 		CC817EC52005E1C6003C5637 /* SLSocketKitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				CC79C5F6200DA8F400F80666 /* UIKit */,
+				CC79C5D0200DA42800F80666 /* Login */,
+				CC79C5D6200DA43200F80666 /* ShareLocation */,
 				CC605E70200705E200CE5703 /* SLSocketKit */,
 				CC605E6C2006FE2E00CE5703 /* SLLocationManager */,
 				CC817EC62005E1C6003C5637 /* AppDelegate.h */,
@@ -135,6 +315,7 @@
 		CC817EDD2005E395003C5637 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				CCA21F452010A40600DC14B3 /* XYProgressHUD */,
 				CC605E75200718E200CE5703 /* NSTimer+Addition.h */,
 				CC605E74200718E200CE5703 /* NSTimer+Addition.m */,
 				CC817EE12005E3C8003C5637 /* Common.h */,
@@ -142,6 +323,61 @@
 				CC817EDE2005E3B2003C5637 /* UIColor+HexColor.m */,
 			);
 			path = Tools;
+			sourceTree = "<group>";
+		};
+		CCA21F3920106E1C00DC14B3 /* Serialization */ = {
+			isa = PBXGroup;
+			children = (
+				CC79C624200F48F900F80666 /* SLSocketRequestSerializer.h */,
+				CC79C625200F48F900F80666 /* SLSocketRequestSerializer.m */,
+				CCA21F3E20106F8B00DC14B3 /* SLSocketConnectSerializer.h */,
+				CCA21F3F20106F8C00DC14B3 /* SLSocketConnectSerializer.m */,
+			);
+			path = Serialization;
+			sourceTree = "<group>";
+		};
+		CCA21F3D20106F2D00DC14B3 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				CC79C621200F233200F80666 /* NSObject+SLSocket.h */,
+				CC79C622200F233200F80666 /* NSObject+SLSocket.m */,
+				CCA21F552010A5E600DC14B3 /* NSDictionary+SLSocket.h */,
+				CCA21F562010A5E600DC14B3 /* NSDictionary+SLSocket.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		CCA21F4120108F9800DC14B3 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				CCA21F4220108FCD00DC14B3 /* SLSocketError.h */,
+				CCA21F4320108FCD00DC14B3 /* SLSocketError.m */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		CCA21F452010A40600DC14B3 /* XYProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				CCA21F522010A45700DC14B3 /* XYCoreHUDCenter.h */,
+				CCA21F532010A45700DC14B3 /* XYCoreHUDCenter.m */,
+				CCA21F462010A40600DC14B3 /* Resources */,
+				CCA21F482010A40600DC14B3 /* UIView+XYHUDOperation.h */,
+				CCA21F492010A40600DC14B3 /* UIView+XYHUDOperation.m */,
+				CCA21F4A2010A40600DC14B3 /* XYIndefiniteAnimatedImageView.h */,
+				CCA21F4B2010A40600DC14B3 /* XYIndefiniteAnimatedImageView.m */,
+				CCA21F4C2010A40600DC14B3 /* XYProgressHUD.h */,
+				CCA21F4D2010A40600DC14B3 /* XYProgressHUD.m */,
+			);
+			path = XYProgressHUD;
+			sourceTree = "<group>";
+		};
+		CCA21F462010A40600DC14B3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CCA21F472010A40600DC14B3 /* XYProgressHUD.bundle */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,9 +441,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC79C5D5200DA42800F80666 /* SLLoginViewController.xib in Resources */,
 				CC817ED32005E1C6003C5637 /* LaunchScreen.storyboard in Resources */,
+				CC79C617200DAE6500F80666 /* SLShareLocationUserCell.xib in Resources */,
 				CC817EE62005E4F9003C5637 /* ViewController.xib in Resources */,
+				CCA21F4E2010A40600DC14B3 /* XYProgressHUD.bundle in Resources */,
 				CC817ED02005E1C6003C5637 /* Assets.xcassets in Resources */,
+				CCA21F35201044ED00DC14B3 /* SLShareLocationEmptyCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,9 +460,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SLSocketKitDemo/Pods-SLSocketKitDemo-resources.sh",
+				"${PODS_ROOT}/AMap3DMap/MAMapKit.framework/AMap.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -269,13 +512,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC79C616200DAE6500F80666 /* SLShareLocationUserCell.m in Sources */,
+				CC79C60F200DAA1900F80666 /* SLShareLocationView.m in Sources */,
+				CCA21F3820106AA400DC14B3 /* SLAsyncSocketManager.m in Sources */,
+				CC79C609200DA8F400F80666 /* XYViewModel.m in Sources */,
+				CCA21F4420108FCD00DC14B3 /* SLSocketError.m in Sources */,
 				CC817EE02005E3B2003C5637 /* UIColor+HexColor.m in Sources */,
+				CC79C5D4200DA42800F80666 /* SLLoginViewController.m in Sources */,
+				CC79C623200F233200F80666 /* NSObject+SLSocket.m in Sources */,
+				CC79C61D200DDB3400F80666 /* SLUserAnnotation.m in Sources */,
+				CC79C626200F48F900F80666 /* SLSocketRequestSerializer.m in Sources */,
+				CC79C606200DA8F400F80666 /* XYScrollView.m in Sources */,
+				CCA21F34201044ED00DC14B3 /* SLShareLocationEmptyCell.m in Sources */,
 				CC817ED62005E1C6003C5637 /* main.m in Sources */,
 				CC817EE52005E4F9003C5637 /* ViewController.m in Sources */,
+				CC79C620200EFF7B00F80666 /* SLLocationModel.m in Sources */,
+				CC79C608200DA8F400F80666 /* XYViewController.m in Sources */,
+				CC79C605200DA8F400F80666 /* UICollectionView+reactiveCocoa.m in Sources */,
+				CC79C60C200DA9FA00F80666 /* SLShareLocationViewController.m in Sources */,
+				CCA21F512010A40600DC14B3 /* XYProgressHUD.m in Sources */,
+				CC79C61A200DD5E400F80666 /* SLUserAnnotationView.m in Sources */,
 				CC605E6F2006FE5500CE5703 /* SLLocationManager.m in Sources */,
 				CC817EC82005E1C6003C5637 /* AppDelegate.m in Sources */,
+				CC79C612200DAA4B00F80666 /* SLShareLocationViewModel.m in Sources */,
+				CCA21F572010A5E600DC14B3 /* NSDictionary+SLSocket.m in Sources */,
+				CCA21F4F2010A40600DC14B3 /* UIView+XYHUDOperation.m in Sources */,
+				CCA21F502010A40600DC14B3 /* XYIndefiniteAnimatedImageView.m in Sources */,
+				CCA21F4020106F8C00DC14B3 /* SLSocketConnectSerializer.m in Sources */,
+				CCA21F542010A45700DC14B3 /* XYCoreHUDCenter.m in Sources */,
 				CC605E732007061300CE5703 /* CFSocketManager.m in Sources */,
 				CC605E76200718E200CE5703 /* NSTimer+Addition.m in Sources */,
+				CC79C607200DA8F400F80666 /* XYView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

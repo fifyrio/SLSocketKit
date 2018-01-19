@@ -11,6 +11,22 @@
 
 #import "Common.h"
 #import "UIColor+HexColor.h"
+#import <ReactiveCocoa/ReactiveCocoa.h>
+#import <Masonry/Masonry.h>
+#import <MJExtension.h>
+#import "XYCoreHUDCenter.h"
+
+#define GEO_KEY @"cb76d19bba39ae9647fcb45773f143eb"
+
+#define PROTOCOL_VERSION @"1.0"
+
+#define REQ_TYPE_CREATE_ACCOUNT @"1"
+#define REQ_TYPE_UPLOAD_LOCATION @"2"
+
+#define HOST        @"127.0.0.1"
+#define PORT        9999
+
+#define SLBundleVersion [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"]
 
 #define weakify(...) \
 rac_keywordify \

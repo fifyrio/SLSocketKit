@@ -3,5 +3,9 @@ platform :ios, '8.0' #手机的系统
 target 'SLSocketKitDemo' do
     pod 'CocoaAsyncSocket'
     pod 'AFNetworking', '~> 3.0'
+    pod 'ReactiveCocoa', '~> 2.5’
+    pod 'Masonry'
+    pod 'AMap3DMap'
+    pod 'MJExtension'
 end
 
